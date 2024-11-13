@@ -1,11 +1,12 @@
 body{
-    background-color:#fca08b ;
+    background-color:#ffffff ;
     margin: 0;
     padding: 0;
     font-family: sans-serif, Arial, Helvetica;
 }
 
 nav ul{
+    background-color: #bd5757;
     list-style: none;
     text-align: center;
     padding: 0;
@@ -19,5 +20,21 @@ nav li{
     height: 40px;
     display: inline-block;
     margin: 2%
+}
+
+nav a{
+    text-decoration: none;
+    color: white;
+}
+
+nav a:hover{
+    background-color: none;
+    color: #000000;
+
+}
+
+div {
+    background-color: bisque;
+    text-align: center;
 }
 
