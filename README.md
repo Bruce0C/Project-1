@@ -134,6 +134,38 @@ Happy coding!
 
 Welcome! [Rugby Union Rookie](https://8000-bruce0c-project1-0x4p0ae8cfb.ws.codeinstitute-ide.net/home-page.html)
 
-## h2
-### h3
-#### h4
+## Features 
+
+### Existing Features
+Nav bar 
+Landing page 
+Sections...
+International rankings table
+How to play page 
+Join page 
+Laws page 
+Kit page. 
+
+### Features left to impliment
+Rugby union 7s rules, laws and play style pages
+Quiz page
+
+## Testing
+
+## Validator testing
+
+## Unfixed bugs 
+
+## Deployment
+
+## Credits
+
+### Content
+### Media
+
+## Other general project advice
+
+
+
+
+
