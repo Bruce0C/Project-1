@@ -11,6 +11,7 @@ nav ul{
     text-align: center;
     padding: 0;
     margin: 0;
+    height: 5%;
 
 }
 
@@ -34,12 +35,12 @@ nav a:hover{
 }
 
 div {
-    background-color: bisque;
+    background-color: white;
     text-align: center;
 }
 
 .window{
-    background-color: rgb(118, 118, 118);
+    background-color: white;
 }
 
 .positions-navbar{
@@ -52,4 +53,62 @@ div {
 
 .union-table{
     
+}
+
+.tornaments-container{
+    border: 2px solid #ececec ;
+    background-color: #ededed;
+    display:flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding:5px;
+
+}
+
+.world-cup{
+    background-color: #b37a7a;
+    text-align: center; 
+    flex: 1 0 250px;
+    margin: 10px;
+
+}
+
+.six-nations{
+    background-color: #378d62;
+    text-align: center; 
+    flex: 1 0 250px;
+    margin: 10px;
+}
+
+.autumn-nations{
+    background-color: #6b3ea7;
+    text-align: center; 
+    flex: 1 0 250px;
+    margin: 10px;
+}
+
+.card-container{
+    border: 2px solid #ececec ;
+    background-color: #ededed;
+    display:flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding:5px;
+
+}
+
+.yellow-card{
+    background-color: #ffd900;
+    text-align: center; 
+    flex: 1 0 250px;
+    margin: 10px;
+    
+
+}
+
+.red-card{
+    background-color: #ff0000ec;
+    text-align: center;
+    flex: 1 0 250px;
+    margin: 10px;
 }
