@@ -3,6 +3,7 @@ body{
     margin: 0;
     padding: 0;
     font-family: sans-serif, Arial, Helvetica;
+    text-align: center;
 }
 
 nav ul{
@@ -34,17 +35,48 @@ nav a:hover{
 
 }
 
-div {
-    background-color: white;
+.history-container{
+    background-color: #ffffff;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding: 2px;
+}
+
+.history-paragraph{
+    background-color: #ffffff;
+    text-align: center; 
+    flex: 1 0 250px ;
+    flex-grow: 1;
+    margin: 10px;
+    order: -1;
+}
+
+.old-picture{
+    background-color: #ffffffec;
     text-align: center;
+    flex: 1 20 100px;
+    height: 10%;
+    width: 10%;
+}
+
+#history-img{
+    height: 100%;
+    width: 100%;
+    object-fit: scale-down;
 }
 
 .window{
-    background-color: white;
+    background-color: rgb(204, 204, 204);
 }
 
 .positions-navbar{
-    
+    background-color: #b5b5b5;
+    list-style: none;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    height: 1%;
 }
 
 .laws-navbar{
@@ -55,14 +87,25 @@ div {
     
 }
 
+.button-container{
+    background-color: #e2e2e2;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;  
+}
+
 .tornaments-container{
     border: 2px solid #ececec ;
     background-color: #ededed;
     display:flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     flex-wrap: wrap;
     padding:5px;
+}
 
+#tornaments-img{
+    object-fit: scale-down;
 }
 
 .world-cup{
@@ -70,7 +113,6 @@ div {
     text-align: center; 
     flex: 1 0 250px;
     margin: 10px;
-
 }
 
 .six-nations{
@@ -94,7 +136,6 @@ div {
     justify-content: space-evenly;
     flex-wrap: wrap;
     padding:5px;
-
 }
 
 .yellow-card{
@@ -102,8 +143,6 @@ div {
     text-align: center; 
     flex: 1 0 250px;
     margin: 10px;
-    
-
 }
 
 .red-card{
@@ -112,3 +151,4 @@ div {
     flex: 1 0 250px;
     margin: 10px;
 }
+
