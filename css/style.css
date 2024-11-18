@@ -1,9 +1,24 @@
 body{
     background-color:#ffffff ;
+    background-image: url(./../Image/background.PNG);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: cover;
     margin: 0;
     padding: 0;
     font-family: sans-serif, Arial, Helvetica;
     text-align: center;
+}
+p{
+    color: #ffffff;
+}
+
+h1 {
+    color: #ffffff;
+}
+
+h3{
+    color: #ffffff;
 }
 
 nav ul{
@@ -13,7 +28,6 @@ nav ul{
     padding: 0;
     margin: 0;
     height: 5%;
-
 }
 
 nav li{
@@ -36,7 +50,7 @@ nav a:hover{
 }
 
 .history-container{
-    background-color: #ffffff;
+    background-color: none;
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
@@ -44,7 +58,7 @@ nav a:hover{
 }
 
 .history-paragraph{
-    background-color: #ffffff;
+    color: #ffffff;
     text-align: center; 
     flex: 1 0 250px ;
     flex-grow: 1;
@@ -61,6 +75,43 @@ nav a:hover{
 }
 
 #history-img{
+    height: 100%;
+    width: 100%;
+    object-fit: scale-down;
+}
+
+table{
+    background-color: #6b6b6b;
+    background-image: url(./../Image/background.PNG);
+    background-position: bottom;
+    border: #ffffff;
+    color: #ffffff;
+}
+
+.pitch-container{
+   
+    display: block;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding: 2px;
+}
+
+.officials-container{
+    
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding: 2px;
+}
+
+#officials-img{
+    height: 50%;
+    width: 50%;
+    object-fit: contain;
+}
+
+
+#horizontal-pitch-img{
     height: 100%;
     width: 100%;
     object-fit: scale-down;
@@ -87,14 +138,6 @@ nav a:hover{
     
 }
 
-.button-container{
-    background-color: #e2e2e2;
-    padding: 20px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;  
-}
-
 .tornaments-container{
     border: 2px solid #ececec ;
     background-color: #ededed;
@@ -102,10 +145,6 @@ nav a:hover{
     justify-content: space-between;
     flex-wrap: wrap;
     padding:5px;
-}
-
-#tornaments-img{
-    object-fit: scale-down;
 }
 
 .world-cup{
